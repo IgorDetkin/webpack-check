@@ -1,0 +1,1 @@
+address - https://igordetkin.github.io/webpack-check
