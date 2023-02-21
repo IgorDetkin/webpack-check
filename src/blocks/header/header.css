@@ -1,0 +1,31 @@
+.header {
+ padding: 29.2px 70px;
+ border: 1px solid #D9D9D9;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+}
+
+.header__logo {
+    width: 125px;
+    height: 25px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.header__menu-element {
+    margin: 0 0;
+    height: min-content;
+    width: max-content;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+    letter-spacing: 0.3px;
+}

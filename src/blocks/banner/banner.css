@@ -1,0 +1,35 @@
+
+.banner {
+    box-sizing: border-box;
+    background-image: url(../../../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 158px 70px 158px 70px;
+}
+
+.banner__title {
+    width: 709px;
+    margin: 0 0 78px;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100%;
+    color: #444444;
+    letter-spacing: 0.9px;
+}
+
+.banner__link {
+    padding: 18px 28px;
+    background: #B01736;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

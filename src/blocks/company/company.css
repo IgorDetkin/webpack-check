@@ -1,0 +1,88 @@
+
+.company {
+    margin: 100px 70px 56px;
+    overflow: hidden;
+}
+
+.company__panel-up {
+    margin: 0 0 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company__title {
+    margin: 0;
+    height: fit-content;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 90%;
+    color: #444444;
+    letter-spacing: 0.9px;
+}
+
+.company__buttons {
+    margin-top: 7px;
+    height: 56px;
+}
+
+.company__button {
+    background-image: url(../../../images/button_slider.svg);
+    background-size: 56px;
+    border-radius: 64.2857px;
+    border: none;
+    padding: 0;
+    width: 56px;
+    height: 56px;
+}
+
+.company__button_back {
+
+}
+
+.company__button_forward {
+    margin-left: 20px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+.company__slider-container {
+    width: 1110px;
+    height: 834px;
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all 0.3s linear;
+}
+
+.company__slider-img {
+    /* width: 1110px;
+    height: 834px; */
+    object-fit: cover;
+}
+
+
+
+
+.company__pag-lines {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.company__pag-line {
+    border-bottom: 6px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.company__pag-line_active {
+    border-bottom: 6px solid #A30C33;
+}

@@ -1,0 +1,103 @@
+
+.about {
+    padding: 100px 70px;
+}
+
+.about__text-board {
+    box-sizing: border-box;
+    height: 350px;
+    width: 100%;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);
+    padding: 99px 110px;
+}
+
+.about__text {
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #444444;
+    margin: 0;
+    letter-spacing: 0.45px;
+}
+
+.about__text_color {
+    margin: 0;
+    color: #B01736;
+}
+
+.about__cards {
+    margin: 0;
+    padding: 100px 110px 0;
+    height: 287px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* gap: 185px; */
+}
+
+.about__card {
+ /* margin: 0; */
+    max-width: 251px;
+}
+
+.about__card:nth-child(2) {
+    margin: 0 190px;
+}
+
+.about__card:nth-child(4) {
+    /* margin-right: 20px; */
+    margin-left: 148px;
+    margin-right: 184px;
+}
+
+.about__card:nth-child(5) {
+    /* margin-right: 20px; */
+    /* margin-left: -34px; */
+}
+
+.about__card-title {
+    height: 64px;
+    margin: 0 0 4px;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80%;
+    color: #A30C33;
+    opacity: 0.95;
+    letter-spacing: 0.2px;
+}
+
+.about__card-title_symbol {
+    margin: 0 10px 0 0;
+    font-family: 'Proxima Nova Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.about__card-title_plus {
+    margin: 0 0 0 10px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0.9px;
+}
+
+.about__card-text {
+    margin: 0;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #444444;
+}

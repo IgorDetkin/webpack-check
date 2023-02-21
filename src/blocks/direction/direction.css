@@ -1,0 +1,87 @@
+
+.direction {
+    margin: 100px 0;
+}
+
+.direction__title {
+    margin: 0 auto 55px;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100%;
+    text-align: center;
+    color: #444444;
+    letter-spacing: 0.25px;
+}
+
+.direction__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 22px;
+}
+
+.direction__card {
+    width: calc((100% / 2) - 10px);
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+
+.direction__card-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.direction__card-opacity {
+    box-sizing: border-box;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    height: calc(100% - 180px);
+    background: rgba(45, 54, 83, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transition: all 0.3s ease-in;
+
+}
+
+.direction__card:hover > .direction__card-opacity {
+    top: 0;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 28px 0;
+}
+
+.direction__card-title {
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0 20px;
+    letter-spacing: 0.3px;
+}
+
+.direction__card-text {
+    display: none;
+    margin: 20px;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 480px;
+}
+
+.direction__card-opacity:hover > .direction__card-text {
+    display: flex;
+}
+

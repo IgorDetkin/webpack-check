@@ -1,0 +1,21 @@
+
+@font-face {
+  src:
+  url(./proxima_nova_condensed_regular.woff) format('woff'),
+  url(./proxima_nova_condensed_regular.woff2) format('woff2');
+  font-family: 'Proxima Nova Condensed';
+  /* font-weight: 600; */
+}
+
+@font-face {
+  src: url(./ProximaNovaCond_Black.woff) format('woff');
+  font-family: 'Proxima Nova Black';
+  /* font-weight: 900; */
+}
+
+@font-face {
+  src: url(./ProximaNova-Regular.woff) format('woff');
+  src: url(./ProximaNova-Regular.woff2) format('woff2');
+  font-family: 'Proxima Nova';
+  /* font-weight: 900; */
+}
